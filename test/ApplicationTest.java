@@ -20,6 +20,7 @@ public class ApplicationTest extends FunctionalTest {
             }
             Logger.info("clean template compiled cache");
             TemplateLoader.cleanCompiledCache();
+            System.gc();
         }
     }
 
